@@ -1,0 +1,556 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+body {
+    width: 98vw;
+    height: 100vh;
+    background-color: #e9e2ed;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgb(23, 6, 52);
+
+}
+
+.Logo {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.imgLogo {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+ul,
+li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 15px;
+    flex-direction: row;
+    display: flex;
+    column-gap: 15px;
+    color: white;
+}
+
+.ancorvermas {
+    color: black;
+    font-size: 15px;
+
+}
+
+
+li:hover {
+    background-color: rgb(209, 21, 115);
+    border: 1px solid rgb(209, 21, 115);
+    transition: all 400ms;
+
+}
+
+.Navegacion {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+.Navpaginas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    background-image: url(./Multimedia/Images/5464809.jpg);
+    background-size: cover;
+    height: 150px;
+    margin: 10px;
+
+}
+
+.tituloh1 {
+    color: rgb(209, 21, 115);
+}
+
+.Categorias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+main {
+    width: 100%;
+
+
+}
+
+.Cards {
+
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card {
+    background-color: whitesmoke;
+    overflow: hidden;
+    margin: 20px;
+    width: 250px;
+    height: 270px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.Card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.Card .infoCard {
+    padding: 5px;
+    text-align: center;
+}
+
+.Card .infoCard h4 {
+
+    margin-bottom: 5px;
+}
+
+.Card .infoCard a {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 30px;
+    color: rgb(209, 21, 115);
+    border: 1px solid rgb(209, 21, 115);
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+.Card .infoCard a:hover {
+    background: rgb(209, 21, 115);
+    color: #eee;
+}
+
+img {
+    width: 250px;
+    height: 130px;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    padding: 0 10px;
+    flex-wrap: wrap;
+
+}
+
+.Card-container {
+    display: flex;
+    width: 700px;
+    height: 300px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(211, 22, 113, 0.2);
+
+}
+
+.ImagenCard {
+    border-right: #eee;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.ImgCard {
+    height: 280px;
+    width: 250px;
+    border-radius: 3px;
+
+}
+
+.descripcion {
+    padding: 10px;
+
+}
+
+.descripcion h2 {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.descripcion p {
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.InfoDetalle {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+
+}
+
+.InfoDetalleUno p {
+    color: rgb(209, 21, 115);
+    border-radius: 20px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.InfoDetalleDos p {
+    color: rgb(209, 21, 115);
+    border-radius: 20px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InfoDetalleDos  p:hover{
+    background: rgb(209, 21, 115);
+    color: #eee;
+}
+.InfoDetalleUno p:hover{
+    background: rgb(209, 21, 115);
+    color: #eee;
+}
+
+.maincontact {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.Formularios {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.Datos {
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: rgb(209, 21, 115);
+    opacity: 0.9;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.controls {
+    font-size: 20px;
+
+}
+
+.inputs,
+textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgb(23, 6, 52);
+
+}
+
+.Navfooter {
+    width: 50%;
+    height: 100%;
+    column-gap: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+
+}
+
+.fa-brands {
+    font-size: 30px;
+    color: rgb(209, 21, 115);
+
+
+}
+
+.botonfoot {
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(23, 6, 52);
+
+
+
+
+}
+
+.TextoCopy {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: rgb(209, 21, 115);
+    font-size: 20px;
+
+}
+
+table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th,
+td {
+    border: solid 2px #eee;
+}
+
+.stats {
+    width: 100%;
+    height: 80%;
+}
+
+.mainstats {
+    width: 100%;
+    height: 80%;
+}
+
+@media (max-width: 400px) {
+    body {
+        width: 98vw;
+        height: 100vh;
+
+    }
+
+    header {
+        width: 95%;
+        height: 15%;
+        justify-content: end;
+        align-items: center;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+
+    }
+
+
+    ul,
+    li,
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 10px;
+        flex-direction: row;
+        display: flex;
+        column-gap: 10px;
+        color: white;
+        justify-content: space-evenly;
+    }
+
+    .Logo {
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .Navegacion {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+    }
+
+    .Navpaginas {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        align-items: center;
+        font-size: 20px;
+        background-image: url(./Multimedia/Images/5464809.jpg);
+        background-size: cover;
+        height: 150px;
+
+    }
+
+    main {
+        width: 100%;
+
+    }
+
+    footer {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        margin-right: 0%;
+    }
+
+    .Maindetalle {
+        width: 100%;
+        height: 80%;
+    }
+
+    .Container {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Card-container {
+        display: block;
+        border-radius: 2px;
+        box-shadow: 1px 1px 4px 2px rgba(211, 22, 113, 0.2);
+        width: 90%;
+        height: 100%;
+    }
+
+    .ImagenCard {
+        border-right: #eee;
+        padding: 5px;
+        display: flex;
+        width: 100%;
+    }
+
+    .ImgCard {
+        height: 230px;
+        width: 300px;
+        border-radius: 3px;
+        display: flex;
+        padding: 5px;
+    }
+    .descripcion h2 {
+        padding: 10px;
+        text-align: center;
+
+    }
+   .descripcion p {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+
+    }
+    .InfoDetalle {
+        display: flex;
+        padding: 5px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .InfoDetalleUno p {
+        color: rgb(209, 21, 115);
+        
+        display: flex;
+        justify-content:start;
+        font-size: 20px;
+    }
+    .InfoDetalleDos p {
+        color: rgb(209, 21, 115);
+        
+        display: flex;
+        justify-content: start;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 94vw;
+        height: 100vh;
+
+    }
+
+    header {
+
+        display: flex;
+        height: 15%;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        flex-direction: row;
+        margin-right: 0%;
+
+    }
+
+    footer {
+        width: 98%;
+        height: 10%;
+        display: flex;
+        margin-right: 0%;
+    }
+}
